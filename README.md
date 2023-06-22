@@ -17,7 +17,7 @@ spring.datasource.password = 11111
 
 Тестовые данные для проверки POST и PUT методов, лежат в testDataAuthorPostAndPut.json (реализация AuthorController) и testDataBookPostAndPut.json (реализация BookController), данные нужно скопировать и вставить в тело реализуемого запроса.
 
-Данные для авторизации:
+#  Данные для авторизации:
 
 user - test
 
