@@ -22,3 +22,5 @@ spring.datasource.password = 11111
 user - test
 
 password - test
+
+# Запуск приложения:
