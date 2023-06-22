@@ -1,0 +1,10 @@
+{
+  "title": "Favorite",
+  "genre": "Detective",
+  "year": 1962,
+  "price": "$80.00",
+  "circulation": 977000,
+  "author": {
+    "id": 6
+  }
+}
