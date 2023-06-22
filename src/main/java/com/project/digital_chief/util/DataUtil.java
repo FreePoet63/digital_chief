@@ -1,10 +1,8 @@
 package com.project.digital_chief.util;
 
 import com.project.digital_chief.exception.ResourceNotFoundException;
-import com.project.digital_chief.model.Author;
-import com.project.digital_chief.model.Book;
-import com.project.digital_chief.repository.AuthorRepository;
-import com.project.digital_chief.repository.BookRepository;
+import com.project.digital_chief.model.*;
+import com.project.digital_chief.repository.*;
 import org.springframework.stereotype.Component;
 
 @Component

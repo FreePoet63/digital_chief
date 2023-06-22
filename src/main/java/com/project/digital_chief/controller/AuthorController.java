@@ -3,11 +3,10 @@ package com.project.digital_chief.controller;
 import com.project.digital_chief.service.AuthorService;
 import com.project.digital_chief.model.Author;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
+import org.springframework.http.*;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
+import java.util.*;
 
 @RestController
 @RequestMapping("/authors")

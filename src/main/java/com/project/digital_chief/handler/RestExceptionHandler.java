@@ -1,24 +1,17 @@
 package com.project.digital_chief.handler;
 
-import com.project.digital_chief.exception.ExceptionDetails;
-import com.project.digital_chief.exception.ResourceNotFoundDetails;
-import com.project.digital_chief.exception.ResourceNotFoundException;
-import com.project.digital_chief.exception.ValidationExceptionDetails;
+import com.project.digital_chief.exception.*;
 import jakarta.annotation.Nullable;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
-import org.springframework.http.ResponseEntity;
+import org.springframework.http.*;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
-import org.springframework.web.bind.annotation.ControllerAdvice;
-import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
 import java.time.LocalDateTime;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 @ControllerAdvice
