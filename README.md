@@ -28,3 +28,5 @@ password - test
 
 Доступно приложение по адресу: http://localhost:8080/swagger-ui.html
 
+Примеры запросов будут доступны в Swagger
+
